@@ -1,1 +1,1 @@
-# soloQA-team
+# VVSS Lab Activity
