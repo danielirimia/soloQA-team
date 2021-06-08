@@ -13,7 +13,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -23,11 +23,10 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01_Tasks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -121,30 +120,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1623154747434">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613546230787">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623154747434" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1623155586919">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1613546230787" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1613546416579">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623155586919" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1623155587717">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1613546416579">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623155587717" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1623155587717">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1613546416579">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623155587717" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1623155587717">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1613546416579">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623155587717" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1623155587717">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
+    <state width="300" height="120" key="javadoc.popup.new" timestamp="1613337848289">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623155587717" />
+    <state width="300" height="120" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1613337848289" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
