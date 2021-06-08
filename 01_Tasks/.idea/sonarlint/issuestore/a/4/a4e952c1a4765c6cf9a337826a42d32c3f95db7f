@@ -1,0 +1,11 @@
+
+Csquid:S1602<",Remove useless curly braces around statement(çöÔˆ
+ˆ"squid:ClassVariableVisibilityCheck"ZMake savedTasksFile a static final constant or non-public and provide accessors if needed.(¼Çü¦
+?squid:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+gsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(é±¨ãÿÿÿÿÿ
+Nsquid:S1444"2Make this "public static primaryStage" field final(¢Ñû¦ûÿÿÿÿ
+bsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(€â³Ö
+‹"squid:ClassVariableVisibilityCheck"XMake primaryStage a static final constant or non-public and provide accessors if needed.(¢Ñû¦ûÿÿÿÿ
+Ksquid:S1444"4Make this "public static savedTasksFile" field final(¼Çü¦
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ù‰ï…
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğÕÈ€
