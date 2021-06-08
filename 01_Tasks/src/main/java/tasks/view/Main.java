@@ -42,7 +42,7 @@ public class Main extends Application {
         try {
             log.info("application start");
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/main.fxml"));
-            Parent root = loader.load();//loader.load(this.getClass().getResource("/fxml/main.fxml"));
+            Parent root = loader.load();
             Controller ctrl= loader.getController();
             service = new TasksService(savedTasksList);
 
