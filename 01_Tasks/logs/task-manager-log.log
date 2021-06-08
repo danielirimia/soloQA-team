@@ -12,3 +12,29 @@
 2021-06-08 18:23:34 INFO  Main:38 - saved data reading
 2021-06-08 18:23:34 INFO  Main:43 - application start
 2021-06-08 18:23:35 INFO  Controller:75 - Main controller initializing
+2021-06-08 18:29:03 INFO  Main:38 - saved data reading
+2021-06-08 18:29:03 INFO  Main:43 - application start
+2021-06-08 18:29:04 INFO  Controller:75 - Main controller initializing
+2021-06-08 18:29:05 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 18:29:07 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 18:35:18 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 18:35:26 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 18:35:38 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 18:35:40 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:07:52 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:08:04 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:08:22 INFO  TaskInfoController:26 - task info window initializing
+2021-06-08 19:21:37 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:40 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:44 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:45 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:48 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:50 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:51 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:53 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:55 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:57 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:21:59 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:22:01 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:22:03 INFO  NewEditController:91 - new/edit window initializing
+2021-06-08 19:44:58 INFO  NewEditController:91 - new/edit window initializing
