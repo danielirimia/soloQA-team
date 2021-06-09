@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login test nevalid","Login test successful","SUCCESS","2021-06-09T08:28:52.1453771+03:00[Europe/Bucharest]","0.0","7.07"
+"Login test nevalid","Login test fail","SUCCESS","2021-06-09T08:30:56.75483+03:00[Europe/Bucharest]","0.0","6.41"

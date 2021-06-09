@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create board test","Create board sucess test","SUCCESS","2021-06-09T08:28:03.4744369+03:00[Europe/Bucharest]","0.0","26.07"
+"Login test nevalid","Login test successful","SUCCESS","2021-06-09T08:28:52.1453771+03:00[Europe/Bucharest]","0.0","7.07"
+"Login test valid","Login test successful","SUCCESS","2021-06-09T08:29:14.6863806+03:00[Europe/Bucharest]","0.0","14.22"
+"Login test nevalid","Login test fail","SUCCESS","2021-06-09T08:30:56.75483+03:00[Europe/Bucharest]","0.0","6.41"
