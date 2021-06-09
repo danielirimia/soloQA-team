@@ -1,0 +1,11 @@
+
+_
+java:S25838"DChange this condition so that it does not always evaluate to "false"(İ±äÜüÿÿÿÿ
+•
+java:S21598"zRemove this call to "equals"; comparisons against null always return false; consider using '== null' to check for nullity.(İ±äÜüÿÿÿÿ
+o
+java:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(êŠáÉûÿÿÿÿ
+U
+java:S1117"9Rename "tasks" which hides the field declared at line 12.(¬ò‡Íûÿÿÿÿ
+d
+java:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(êŠáÉûÿÿÿÿ

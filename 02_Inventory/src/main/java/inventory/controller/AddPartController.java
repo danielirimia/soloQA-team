@@ -179,4 +179,18 @@ public class AddPartController implements Initializable, Controller {
         }
     }
 
+    void addPart(String name, String price, String inStock, String min, String max, String partDynamicValue) throws Exception {
+        this.errorMessage = "";
+        this.errorMessage = Part.isValidPart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), "");
+        if (errorMessage.length() > 0) {
+            throw new Exception(errorMessage);
+        } else {
+            if (isOutsourced) {
+                service.addOutsourcePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), partDynamicValue);
+            } else {
+                service.addInhousePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), Integer.parseInt(partDynamicValue));
+            }
+        }
+    }
+
 }
