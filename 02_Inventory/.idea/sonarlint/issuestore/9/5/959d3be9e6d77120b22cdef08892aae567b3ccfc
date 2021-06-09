@@ -1,0 +1,18 @@
+
+c
+java:S2095‰"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ù»ı
+b
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦
+b
+java:S2095R"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãÈˆ¦
+3
+java:S1643•"Use a StringBuilder instead.(ŠÑ‡à
+;
+java:S3010"%Remove this assignment of "filename".(Òİ™¬
+K
+java:S2209"5Change this instance-reference to a static reference.(Òİ™¬
+Z
+java:S2147'"DCombine this catch with the one at line 37, which has the same body.(ï­£Ä
+Z
+java:S2147\"DCombine this catch with the one at line 90, which has the same body.(ï­£Ä
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(Ñ£±Ôúÿÿÿÿ

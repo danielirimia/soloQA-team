@@ -65,9 +65,13 @@ class AddPartControllerTest {
     void addPartECPInvalidName() {
         name = "";
 
-        //assert
-        assertThrows(Exception.class,() -> addPartController.addPart(name, price, inStock, min, max, partDynamicValue));
-        assertEquals(0, inventoryRepository.getAllParts().size());
+        try {
+            addPartController.addPart(name, price, inStock, min, max, partDynamicValue);
+            assertFalse(true);
+        } catch (Exception ex) {
+            assertEquals(ex.getMessage(), "A name has not been entered. ");
+            assertEquals(0, inventoryRepository.getAllParts().size());
+        }
     }
 
     @org.junit.jupiter.api.Order(2)
@@ -89,9 +93,13 @@ class AddPartControllerTest {
     void addPartECPInvalidPrice() {
         price = "-100";
 
-        //assert
-        assertThrows(Exception.class,() -> addPartController.addPart(name, price, inStock, min, max, partDynamicValue));
-        assertEquals(0, inventoryRepository.getAllParts().size());
+        try {
+            addPartController.addPart(name, price, inStock, min, max, partDynamicValue);
+            assertFalse(true);
+        } catch (Exception ex) {
+            assertEquals(ex.getMessage(), "The price must be greater than 0. ");
+            assertEquals(0, inventoryRepository.getAllParts().size());
+        }
     }
 
     @org.junit.jupiter.api.Order(4)
@@ -101,9 +109,13 @@ class AddPartControllerTest {
     void addPartBVAInvalidName() {
         name = "";
 
-        //assert
-        assertThrows(Exception.class,() -> addPartController.addPart(name, price, inStock, min, max, partDynamicValue));
-        assertEquals(0, inventoryRepository.getAllParts().size());
+        try {
+            addPartController.addPart(name, price, inStock, min, max, partDynamicValue);
+            assertFalse(true);
+        } catch (Exception ex) {
+            assertEquals(ex.getMessage(), "A name has not been entered. ");
+            assertEquals(0, inventoryRepository.getAllParts().size());
+        }
     }
 
     @org.junit.jupiter.api.Order(5)
@@ -113,9 +125,13 @@ class AddPartControllerTest {
     void addPartBVANullName() {
         name = null;
 
-        //assert
-        assertThrows(Exception.class,() -> addPartController.addPart(name, price, inStock, min, max, partDynamicValue));
-        assertEquals(0, inventoryRepository.getAllParts().size());
+        try {
+            addPartController.addPart(name, price, inStock, min, max, partDynamicValue);
+            assertFalse(true);
+        } catch (Exception ex) {
+            assertEquals(ex.getMessage(), null);
+            assertEquals(0, inventoryRepository.getAllParts().size());
+        }
     }
 
     @org.junit.jupiter.api.Order(6)
@@ -137,9 +153,13 @@ class AddPartControllerTest {
     void addPartBVAPriceZero() {
         price = "0";
 
-        //assert
-        assertThrows(Exception.class, () -> addPartController.addPart(name, price, inStock, min, max, partDynamicValue));
-        assertEquals(0, inventoryRepository.getAllParts().size());
+        try {
+            addPartController.addPart(name, price, inStock, min, max, partDynamicValue);
+            assertFalse(true);
+        } catch (Exception ex) {
+            assertEquals(ex.getMessage(), "The price must be greater than 0. ");
+            assertEquals(0, inventoryRepository.getAllParts().size());
+        }
     }
 
     @org.junit.jupiter.api.Order(8)
@@ -149,9 +169,13 @@ class AddPartControllerTest {
     void addPartBVAPriceNegative() {
         price = "-1";
 
-        //assert
-        assertThrows(Exception.class, () -> addPartController.addPart(name, price, inStock, min, max, partDynamicValue));
-        assertEquals(0, inventoryRepository.getAllParts().size());
+        try {
+            addPartController.addPart(name, price, inStock, min, max, partDynamicValue);
+            assertFalse(true);
+        } catch (Exception ex) {
+            assertEquals(ex.getMessage(), "The price must be greater than 0. ");
+            assertEquals(0, inventoryRepository.getAllParts().size());
+        }
     }
 
     @org.junit.jupiter.api.Order(9)
